@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-div">
+
+        <!-- Header Start -->
+        <div class="header">
+
+            <div class="heading">
+                <h1>My First Website</h1>
+                <p>A Beginner Friendly Webpage</p>
+
+            </div>
+
+            <div class="image">
+                <img src="./logo.jpg" alt="Logo">
+            </div>
+
+        </div>
+        <!-- Header End -->
+
+        <!-- Nav-bar -->
+
+        <div class="nav-bar">
+            <div>
+                <div class="a"><a href="#" id="Home">Home</a></div>
+                <div class="a"><a href="#">About</a></div>
+                <div class="a"><a href="#">Services</a></div>
+                <div class="a"><a href="#">Gallery</a></div>
+                <div class="a"><a href="#">Contact</a></div>
+            </div>
+            <div class="search">
+                <form action="https://www.google.com/search" method="get" target="_blank">
+                    <label for="a">
+                        Search
+                        <input type="search" placeholder="Search Here" id="a" name="q">
+                    </label>
+                    <button id="search">Search</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="hero-section">
+            <div>
+                <h1>Welcome to My Website</h1>
+                <p>This is a simple webpage created using HTML and CSS </p>
+                <p>It is perfect for beginner who are learning web development </p>
+                <!-- Element to contain animated typing -->
+                <span id="element">Hi Everyone! This is My First Try to Add This Effect</span>
+                <br>
+                <button>Learn More</button>
+            </div>
+            <div class="img-lap">
+                <img src="./technology-device-laptop-and-smartphone-vector.png" alt="Laptop img">
+            </div>
+        </div>
+
+
+        <div class="our-feature">
+            <h1>Our Features</h1>
+        </div>
+
+        <div class="main-info">
+            <div class="info" id="info1">
+                <img src="./Code to easy.png" alt="codetoeasylogo">
+                <h4>Easy to Code</h4>
+                <p>HTML and CSS are easy to learn and perfect for beginners.</p>
+            </div>
+            <div class="info" id="info2">
+                <img src="./edit.png" alt="editlogo">
+                <h4>Simple Design</h4>
+                <p>You can create beautifuk websites with simple design.</p>
+            </div>
+            <div class="info" id="info3">
+                <img src="./journey.jpg" alt="journeylogo">
+                <h4>Get Started</h4>
+                <p>Start your web development journey today!</p>
+            </div>
+        </div>
+
+        <!-- footer -->
+
+        <div class="footer">
+            <footer>
+                <p> &copy; 23-07-2026 My First Website. All Rights Reserved</p>
+            </footer>
+        </div>
+
+    </div>
+
+
+    <div>
+
+
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Hello,This is Wadaan!', "I'm Learning Web-Development", "This is My First Try to Add This Effect in HTML"],
+                typeSpeed: 50,
+            });
+        </script>
+</body>
+
+
+
+</div>
+
+
+</body>
+
+</html>
